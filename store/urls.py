@@ -9,4 +9,5 @@ urlpatterns = [
     path('products/', views.ProductList.as_view()),
     path('products/new/', views.CreateProduct.as_view()),
     path('product/<int:pk>', views.ProductDetail.as_view()),
+    path('products/upload_products/', views.products_upload, name='products_upload')
 ]

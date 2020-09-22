@@ -28,6 +28,9 @@ migrations          Make models migrations
     api/token/              Get JWT Token
     api/token/refresh/      Renew time for JWT Token expired
     api/token/verify/       Verify if JTW Token is valid
+    api/products/           List all products
+    api/bills/              List all bills
+    
 
 
 ## Mocks
