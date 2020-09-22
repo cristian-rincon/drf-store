@@ -20,11 +20,20 @@ migrations          Make models migrations
 
 ## Available paths
 
-    admin/
-    accounts/
-    accounts/register/
-    accounts/login/
-    accounts/logout/
-    api/token/
-    api/token/refresh/
-    api/token/verify/
+    admin/                  Admin UI     
+    accounts/register/      Register new user
+    accounts/login/         Login view
+    accounts/logout/        Logout View
+    accounts/upload-csv/    Upload users from csv file
+    api/token/              Get JWT Token
+    api/token/refresh/      Renew time for JWT Token expired
+    api/token/verify/       Verify if JTW Token is valid
+
+
+## Mocks
+
+You can find mocks to use in ``mocks`` folder. Available mocks are:
+
+*   Products mock (100 rows)
+*   Users mock (1000 rows)
+
