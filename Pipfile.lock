@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "d88b45137e29a8b334c52ba6c20f9bed364d6261f4da20dce44095eaa936bff5"
+            "sha256": "83a9aba2a9003fe8de9102861ac980b45e1558bfe8875b0b6c33190ac9a38699"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -39,6 +39,14 @@
             "index": "pypi",
             "version": "==2.3.0"
         },
+        "django-rest-registration": {
+            "hashes": [
+                "sha256:450254301b24af465e6decfda33d15a84594271fd4a8398023d8f65009706231",
+                "sha256:a49539890d153f65c0fa6504de9b4539af342028bc7770267fe26722e9b101bb"
+            ],
+            "index": "pypi",
+            "version": "==0.5.6"
+        },
         "djangorestframework": {
             "hashes": [
                 "sha256:6dd02d5a4bd2516fb93f80360673bf540c3b6641fec8766b1da2870a5aa00b32",
@@ -47,6 +55,14 @@
             "index": "pypi",
             "version": "==3.11.1"
         },
+        "djangorestframework-simplejwt": {
+            "hashes": [
+                "sha256:288ee78618d906f26abf6282b639b8f1806ce1d9a7578897a125cf79c609f259",
+                "sha256:c315be70aa12a5f5790c0ab9acd426c3a58eebea65a77d0893248c5144a5080c"
+            ],
+            "index": "pypi",
+            "version": "==4.4.0"
+        },
         "markdown": {
             "hashes": [
                 "sha256:1fafe3f1ecabfb514a5285fca634a53c1b32a81cb0feb154264d55bf2ff22c17",
@@ -54,6 +70,13 @@
             ],
             "index": "pypi",
             "version": "==3.2.2"
+        },
+        "pyjwt": {
+            "hashes": [
+                "sha256:5c6eca3c2940464d106b99ba83b00c6add741c9becaec087fb7ccdefea71350e",
+                "sha256:8d59a976fb773f3e6a39c85636357c4f0e242707394cadadd9814f5cbaa20e96"
+            ],
+            "version": "==1.7.1"
         },
         "pytz": {
             "hashes": [
@@ -68,6 +91,13 @@
                 "sha256:e162203737712307dfe78860cc56c8da8a852ab2ee33750e33aeadf38d12c548"
             ],
             "version": "==0.3.1"
+        },
+        "typing": {
+            "hashes": [
+                "sha256:1187fb9c82fd670d10aa07bbb6cfcfe4bdda42d6fab8d5134f04e8c4d0b71cc9",
+                "sha256:283d868f5071ab9ad873e5e52268d611e851c870a2ba354193026f2dfb29d8b5"
+            ],
+            "version": "==3.7.4.3"
         }
     },
     "develop": {}

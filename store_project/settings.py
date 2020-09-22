@@ -45,8 +45,26 @@ INSTALLED_APPS = [
 
     # Internal
     'store',
-    'users'
+    'users',
+    # External
+    'rest_registration',
 ]
+
+
+REST_FRAMEWORK = {
+    'DEFAULT_AUTHENTICATION_CLASSES': (
+        'rest_framework_simplejwt.authentication.JWTAuthentication',
+    )
+}
+
+
+# Rest registration
+REST_REGISTRATION = {
+    'REGISTER_VERIFICATION_ENABLED': False,
+    'RESET_PASSWORD_VERIFICATION_ENABLED': False,
+    'REGISTER_EMAIL_VERIFICATION_ENABLED': False,
+}
+
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',

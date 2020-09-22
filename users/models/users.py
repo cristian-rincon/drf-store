@@ -7,6 +7,7 @@ from utils.models import StoreModel
 class User(StoreModel, AbstractUser):
     
 
+    document = models.PositiveIntegerField(default=0)
     email = models.EmailField(
         'email address',
         unique=True,
@@ -15,7 +16,8 @@ class User(StoreModel, AbstractUser):
         }
     )
 
-    phone_number = models.CharField(max_length=17, blank=True)
+
+
 
     USERNAME_FIELD ='email'
     REQUIRED_FIELDS = ['username', 'first_name', 'last_name']
@@ -29,11 +31,6 @@ class User(StoreModel, AbstractUser):
 
     )
 
-    is_verified = models.BooleanField(
-        'verified',
-        default=True,
-        help_text='Set to tue when the user have verified its email address.'
-    )
 
     def __str__(self):
         """Return username"""

@@ -10,10 +10,21 @@ You can find some useful commands to set up the application on localhost, just t
 
 ```bash
 
-admin               Create admin user 
-commit              Commit changes 
-install_dep         Install Python Dependencies from requirements.txt file 
-migrations          Make models migrations 
 run                 Test api 
+admin               Create admin user 
+install_dep         Install Python Dependencies from requirements.txt file 
+commit              Commit changes 
+migrations          Make models migrations 
 
 ```
+
+## Available paths
+
+    admin/
+    accounts/
+    accounts/register/
+    accounts/login/
+    accounts/logout/
+    api/token/
+    api/token/refresh/
+    api/token/verify/

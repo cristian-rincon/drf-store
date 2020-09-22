@@ -2,3 +2,5 @@ django
 djangorestframework
 markdown # Markdown support for the browsable API.
 django-filter # Filtering support
+django-rest-registration # Login, logout utilities
+djangorestframework-simplejwt # Simple JWT

@@ -10,6 +10,8 @@ djangorestframework = "*"
 django-filter = "*"
 Django = "*"
 Markdown = "*"
+django-rest-registration = "*"
+djangorestframework-simplejwt = "*"
 
 [requires]
 python_version = "3.8"
