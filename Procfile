@@ -1,1 +1,1 @@
-web: gunicorn store_project.asgi
+web: gunicorn store_project.wsgi.application
