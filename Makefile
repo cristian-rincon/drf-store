@@ -29,12 +29,16 @@ install_dep:
 
 ## Create admin user
 admin:
-	python crud/manage.py createsuperuser
+	python manage.py createsuperuser
 
 ## Test api
 run:
-	python crud/manage.py runserver
+	python manage.py runserver
 
+## Make models migrations
+migrations:
+	python manage.py makemigrations
+	python manage.py migrate
 ## Commit changes
 commit:
 	git add .
