@@ -7,4 +7,6 @@ djangorestframework-simplejwt # Simple JWT
 
 psycopg2 # PG Handler
 gunicorn
+whitenoise
 dj-database-url
+
