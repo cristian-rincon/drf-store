@@ -4,3 +4,6 @@ markdown # Markdown support for the browsable API.
 django-filter # Filtering support
 django-rest-registration # Login, logout utilities
 djangorestframework-simplejwt # Simple JWT
+
+psycopg2 # PG Handler
+

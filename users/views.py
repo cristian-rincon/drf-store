@@ -9,7 +9,7 @@ from rest_framework_simplejwt.authentication import JWTAuthentication
 
 from .models import User
 
-@api_view(['GET'])
+@api_view(['GET','POST'])
 @authentication_classes([SessionAuthentication, BasicAuthentication])
 @permission_classes([IsAuthenticated])
 def profile_upload(request):

@@ -61,7 +61,7 @@ class ProductDetail(generics.RetrieveUpdateDestroyAPIView):
     serializer_class = ProductSerializer
 
 
-@api_view(['POST'])
+@api_view(['GET','POST'])
 @authentication_classes([SessionAuthentication, BasicAuthentication])
 @permission_classes([IsAuthenticated])
 def products_upload(request):
@@ -94,6 +94,3 @@ def products_upload(request):
     context = {}
     return render(request, template, context)
 
-
-def get_user_bills():
-    queryset = User.objects.only('document', 'first_name', 'last_name')
