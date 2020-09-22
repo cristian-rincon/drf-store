@@ -1,6 +1,6 @@
 # Store API
 
-Simple store API, using Django REST Framework.
+Simple store API, using Django REST Framework. You can test it by registering [here](https://store-api-drf.herokuapp.com/accounts/register/)
 
 ## How to use
 
