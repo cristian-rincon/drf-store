@@ -41,6 +41,7 @@ migrations:
 	python manage.py migrate
 ## Commit changes
 commit:
+	python manage.py collectstatic
 	git add .
 	git commit 
 	git push
