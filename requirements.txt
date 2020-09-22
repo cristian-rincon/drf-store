@@ -6,4 +6,5 @@ django-rest-registration # Login, logout utilities
 djangorestframework-simplejwt # Simple JWT
 
 psycopg2 # PG Handler
-
+gunicorn
+django-heroku

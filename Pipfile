@@ -12,6 +12,8 @@ Django = "*"
 Markdown = "*"
 django-rest-registration = "*"
 djangorestframework-simplejwt = "*"
+gunicorn = "*"
+django-heroku = "*"
 
 [requires]
 python_version = "3.8"
