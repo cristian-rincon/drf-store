@@ -52,3 +52,6 @@ You can find mocks to use in ``mocks`` folder. Available mocks are:
 
 By default, the api is connected with SQLlite, but includes PostgreSQL support, if you want to use this, take care to set the variables listed on the ``.env.sample`` file.
 
+## JWT Tokens
+
+For more information about how to use JWT Tokens, check the official [documentation](https://django-rest-framework-simplejwt.readthedocs.io/en/latest/getting_started.html#usage)
