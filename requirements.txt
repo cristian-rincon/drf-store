@@ -7,4 +7,4 @@ djangorestframework-simplejwt # Simple JWT
 
 psycopg2 # PG Handler
 gunicorn
-django-heroku
+dj-database-url

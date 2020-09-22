@@ -103,7 +103,7 @@ WSGI_APPLICATION = 'store_project.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
-production = os.getenv("PSQL")
+production = os.getenv("PSQL", False)
 
 if production:
     DATABASES = {
@@ -174,7 +174,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-
-import django_heroku
-# Activate Django-Heroku.
-django_heroku.settings(locals())
+# Heroku: Update database configuration from $DATABASE_URL.
+import dj_database_url
+db_from_env = dj_database_url.config(conn_max_age=500)
+DATABASES['default'].update(db_from_env)
