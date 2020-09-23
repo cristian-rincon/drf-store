@@ -37,7 +37,11 @@ migrations          Make models migrations
     api/token/refresh/      Renew time for JWT Token expired
     api/token/verify/       Verify if JTW Token is valid
     api/products/           List all products
+    api/products/new/       Create a product
+    api/product/<id>/       Get information of a product
     api/bills/              List all bills
+    api/bills/new/          Create a bill
+    api/bills/<id>/         Get information of a bill
 
 
 
