@@ -15,6 +15,7 @@ Including another URLconf
 """
 from django.conf import settings
 from django.contrib import admin
+from django.conf.urls import url
 from django.urls import include, path
 from django.conf.urls.static import static
 
@@ -28,7 +29,7 @@ from rest_framework_simplejwt.views import (
 from users.views import profile_upload
 
 urlpatterns = [
-
+    url(r'^accounts/login/', include('django_gitlab_auth.urls')),
     path('admin/', admin.site.urls),
     path('accounts/', include('rest_registration.api.urls')),
     path('accounts/upload-csv/', profile_upload, name='profile_upload'),

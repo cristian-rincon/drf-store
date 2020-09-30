@@ -16,6 +16,8 @@ gunicorn = "*"
 django-heroku = "*"
 dj-database-url = "*"
 whitenoise = "*"
+django-gitlab-auth = "*"
+requests = "*"
 
 [requires]
 python_version = "3.8"
